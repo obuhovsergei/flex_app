@@ -1,0 +1,14 @@
+$colorpicker-background-color: $flex-colorpicker-background-color;
+$colorpicker-border-color: null;
+$colorpicker-border-width: 0;
+
+$colorpicker-item-border-color: null;
+$colorpicker-item-border-width: 0;
+$colorpicker-item-border-style: none;
+$colorpicker-item-border-color-over: null;
+$colorpicker-item-background-color: $colorpicker-background-color;
+$colorpicker-item-background-color-over: darken($colorpicker-background-color, 10%);
+$colorpicker-item-border-color-selected: null;
+$colorpicker-item-background-color-selected: darken($colorpicker-background-color, 10%);
+$colorpicker-item-inner-border-color: null;
+$colorpicker-item-inner-border-width: 0;

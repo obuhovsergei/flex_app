@@ -1,0 +1,52 @@
+$menu-background-color: $flex-background-body;
+$menu-border-color: null;
+$menu-border-style: none;
+$menu-border-width: 0;
+
+$menu-text-color: $flex-text-color-default;
+$menu-item-font-family: $flex-font-family;
+$menu-item-font-size: $flex-font-size-base;
+$menu-item-font-weight: $flex-font-line-height-base;
+
+$menu-item-border-width: 0;
+$menu-item-active-text-color: lighten($flex-text-color-default, 10%);
+$menu-item-active-background-color: darken($flex-background-body, 10%);
+$menu-item-active-border-color: null;
+$menu-item-background-gradient: none;
+$menu-item-active-border-radius: 0;
+
+$menu-item-icon-size: $flex-icon-size-small;
+$menu-glyph-color: $menu-text-color;
+$menu-glyph-font-size: $menu-item-icon-size;
+$menu-item-active-glyph-color: $menu-glyph-color;
+
+$menu-item-checkbox-size: $menu-item-icon-size;
+$menu-item-checkbox-glyph-font-size: $form-checkbox-size;
+$menu-item-checkbox-glyph: $fa-var-square-o $menu-item-checkbox-glyph-font-size $flex-font-family;
+$menu-item-checkbox-checked-glyph: $fa-var-check-square-o $menu-item-checkbox-glyph-font-size $flex-font-family;
+$menu-item-checkbox-glyph-color: $menu-text-color;
+$menu-item-active-checkbox-glyph-color: $menu-item-active-text-color;
+$menu-item-checkbox-group-checked-glyph: $fa-var-check $menu-item-checkbox-glyph-font-size $flex-font-family;
+$menu-item-checkbox-group-glyph-color: $menu-item-checkbox-glyph-color;
+$menu-item-active-checkbox-group-glyph-color: $menu-item-active-checkbox-glyph-color;
+
+$menu-item-icon-background-position: center center;
+$menu-item-text-horizontal-spacing: 4px;
+$menu-item-icon-horizontal-spacing: 3px 5px;
+$menu-item-arrow-horizontal-spacing: 5px 0;
+
+$menu-item-arrow-glyph-color: $flex-background-body;
+$menu-item-active-arrow-glyph-color: $menu-item-active-text-color;
+$menu-item-arrow-glyph-font-size: $flex-font-size-base;
+$menu-item-arrow-glyph: $fa-var-caret-right $menu-item-arrow-glyph-font-size $flex-font-family;
+$menu-item-arrow-glyph-rtl: $fa-var-caret-left $menu-item-arrow-glyph-font-size $flex-font-family;
+
+$menu-separator-border-color: none;
+$menu-separator-background-color: $flex-background-body;
+
+$menu-scroller-border-color: none;
+$menu-scroller-border-width: 0;
+$menu-scroller-glyph-color: $flex-background-body;
+$menu-scroller-glyph-font-size: $flex-font-size-base;
+$menu-scroller-top-glyph: $fa-var-chevron-up $menu-scroller-glyph-font-size $flex-font-family;
+$menu-scroller-bottom-glyph: $fa-var-chevron-down $menu-scroller-glyph-font-size $flex-font-family;

@@ -1,0 +1,27 @@
+$tip-background-color: $flex-background-panel;
+$tip-background-gradient: none;
+
+$tip-body-color: $flex-text-color-default;
+$tip-body-font-size: $flex-font-size-base;
+$tip-body-font-weight: $flex-font-weight;
+$tip-body-link-color: $tip-body-color;
+
+$tip-header-color: $flex-background-header;
+$tip-header-font-size: $flex-font-size-base;
+$tip-header-font-weight: $flex-font-weight-bold;
+$tip-header-padding: $tip-header-body-padding;
+
+$tip-border-color: null;
+$tip-border-radius: 0;
+
+$tip-error-inner-border-color: null;
+$tip-error-inner-border-width: 0;
+$tip-error-border-color: $tip-error-inner-border-color;
+$tip-error-border-radius: $tip-error-inner-border-color;
+$tip-error-border-width: 0;
+$tip-error-background-color: $tip-background-color;
+$tip-error-body-padding: $tip-body-padding;
+$tip-error-body-color: $flex-text-color-danger;
+$tip-error-body-font-size: $tip-body-font-size;
+$tip-error-body-font-weight: $tip-body-font-weight;
+$tip-error-body-link-color: $tip-body-link-color;

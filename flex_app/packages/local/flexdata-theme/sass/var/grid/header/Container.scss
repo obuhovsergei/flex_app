@@ -1,0 +1,19 @@
+$grid-header-background-color: $flex-background-body;
+$grid-header-border-color: null;
+$grid-header-border-width: 0;
+$grid-header-border-style: none;
+$grid-header-over-background-color: darken($flex-background-body, 10%);
+$grid-header-sorted-background-color: $flex-background-panel;
+$grid-header-padding: $flex-column-padding/2;
+$grid-header-trigger-glyph-font-size: $flex-font-size-h3;
+$grid-header-trigger-glyph: $fa-var-caret-down $grid-header-trigger-glyph-font-size $flex-font-family;
+$grid-header-trigger-glyph-color: $flex-text-color-default;
+
+
+$grid-header-sort-icon-position: right center;
+$grid-header-sort-glyph-font-size: $flex-font-size-h5;
+$grid-header-sort-glyph-color: $flex-text-color-default;
+$grid-header-sort-asc-glyph: $fa-var-long-arrow-up $grid-header-sort-glyph-font-size $flex-font-family;
+$grid-header-sort-desc-glyph: $fa-var-long-arrow-down $grid-header-sort-glyph-font-size $flex-font-family;
+$grid-header-menu-glyph-font-size: $flex-icon-size-small;
+$grid-header-menu-glyph-color: $flex-text-color-default;

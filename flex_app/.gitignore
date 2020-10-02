@@ -1,0 +1,6 @@
+/build
+packages\local\flexdata-theme\build/
+bootstrap.*
+classic.json*
+modern.json*
+.sencha

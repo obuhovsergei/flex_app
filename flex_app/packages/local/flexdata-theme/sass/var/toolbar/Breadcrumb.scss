@@ -1,0 +1,22 @@
+@import 'Toolbar';
+
+$breadcrumb-arrow-width: $button-small-split-width;
+$breadcrumb-split-width: $button-small-split-width;
+$breadcrumb-glyph-font-size: $flex-font-line-height-base;
+$breadcrumb-glyph-color: $flex-text-color-default;
+
+$breadcrumb-folder-glyph: $fa-var-folder-o $breadcrumb-glyph-font-size $flex-font-family;
+$breadcrumb-folder-glyph-color: $breadcrumb-glyph-color;
+$breadcrumb-folder-open-glyph: $fa-var-folder-open-o $breadcrumb-glyph-font-size $flex-font-family;
+$breadcrumb-folder-open-glyph-color: $breadcrumb-folder-glyph-color;
+
+$breadcrumb-leaf-glyph: $fa-var-file-o $breadcrumb-glyph-font-size $flex-font-family;
+$breadcrumb-leaf-glyph-color: $breadcrumb-glyph-color;
+
+$breadcrumb-arrow-glyph: $fa-var-angle-right $breadcrumb-glyph-font-size $flex-font-family;
+$breadcrumb-arrow-glyph-color: $breadcrumb-glyph-color;
+$breadcrumb-arrow-expanded-glyph: $fa-var-angle-down $breadcrumb-glyph-font-size $flex-font-family;
+$breadcrumb-arrow-expanded-glyph-color: $breadcrumb-arrow-glyph-color;
+
+$breadcrumb-scroller-border-color: null;
+$breadcrumb-scroller-border-width: null;

@@ -1,0 +1,16 @@
+$grid-grouped-header-background-color: $flex-background-header;
+$grid-grouped-header-border-width: 0;
+$grid-grouped-header-border-style: none;
+$grid-grouped-header-border-color: none;
+$grid-grouped-title-color: $flex-text-color-panel-header;
+$grid-grouped-title-font-family: $flex-font-family;
+$grid-grouped-title-font-size: $flex-font-size-base;
+$grid-grouped-title-font-weight: $flex-font-weight-bold;
+$grid-grouped-title-line-height: $flex-font-line-height-base;
+$grid-grouped-title-glyph-color: $flex-text-color-default;
+$grid-grouped-title-glyph-font-size: $flex-font-size-h5;
+$grid-grouped-title-expand-glyph: $fa-var-plus-square $grid-grouped-title-glyph-font-size $flex-font-family;
+$grid-grouped-title-collapse-glyph:$fa-var-minus-square $grid-grouped-title-glyph-font-size $flex-font-family;
+
+
+$grid-grouped-title-font: $grid-grouped-title-font-weight #{$grid-grouped-title-font-size}/#{$grid-grouped-title-line-height} $grid-grouped-title-font-family;

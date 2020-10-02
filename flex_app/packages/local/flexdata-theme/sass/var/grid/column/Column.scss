@@ -1,0 +1,22 @@
+$grid-column-header-font-family: $flex-font-family;
+$grid-column-header-font-size: $flex-font-size-base;
+$grid-column-header-font-weight: $flex-font-weight;
+$grid-column-header-line-height: $flex-font-line-height-base;
+
+
+$grid-column-header-font: $grid-column-header-font-weight #{$grid-column-header-font-size}/#{$grid-column-header-line-height} $grid-column-header-font-family;
+
+$grid-column-header-color: $flex-text-color-default;
+$grid-column-header-border-width: 0;
+$grid-column-header-border-style: none;
+$grid-column-header-focus-color: $grid-column-header-color;
+$grid-column-header-focus-background-color: lighten($flex-grid-header-background-color, 5%);
+$grid-column-header-focus-border-width: 0;
+$grid-column-header-focus-border-style: none;
+$grid-column-header-focus-border-inset: 0;
+$grid-column-header-focus-border-color: null;
+
+$grid-header-height: $grid-column-header-line-height + vertical($grid-header-padding);
+$grid-header-background-color: $flex-background-panel;
+$grid-header-sorted-background-color: $flex-grid-header-background-color;
+$grid-header-focus-background-color: $flex-grid-header-background-color;

@@ -1,0 +1,59 @@
+//Header Styles
+//$panel-header-color: $flex-text-color-panel-header;
+//$panel-header-font-family: $flex-font-family;
+//$panel-header-font-weight: $flex-font-weight-bold;
+
+//Body Styles
+//$panel-body-font-size: $flex-font-size-base;
+//$panel-body-font-family: $flex-font-family;
+//$panel-body-border-style: $flex-border-default;
+//$panel-body-line-height: $flex-font-line-height-base;
+
+
+
+////////////////////
+$panel-border-width: 0;
+$panel-base-color: $flex-background-body;
+
+$panel-border-color: null;
+$panel-body-background-color: $flex-background-panel;
+$panel-body-color: $flex-text-color-default;
+$panel-body-border-color: null;
+$panel-body-border-width: 0;
+$panel-body-font-size: $flex-font-size-base;
+$panel-body-font-weight: $flex-font-weight;
+$panel-body-font-family: $flex-font-family;
+
+$panel-tool-spacing: 4px;
+$panel-tool-focus-outline-color: $panel-base-color;
+$panel-tool-focus-outline-width: 1px;
+
+$panel-header-border-width: $panel-border-width;
+$panel-header-padding: $flex-panel-padding;
+$panel-header-font-size: $flex-font-size-h1;
+$panel-header-line-height: $flex-font-line-height-h1;
+$panel-header-font-weight: $flex-font-weight-bold;
+$panel-header-border-color: $panel-border-color;
+$panel-header-inner-border-color: $panel-border-color;
+$panel-header-inner-border-width: 0;
+$panel-header-color: $flex-text-color-panel-header;
+$panel-header-background-color: $flex-background-panel;
+$panel-header-icon-spacing: 4px;
+$panel-header-glyph-color: $panel-header-color;
+
+$panel-frame-base-color: $panel-base-color;
+$panel-frame-border-radius: 0;
+$panel-frame-border-width: 0;
+$panel-frame-padding: $flex-logo-padding;
+$panel-frame-background-color:$panel-base-color;
+$panel-frame-border-color: $panel-border-color;
+$panel-frame-body-border-width: 0;
+$panel-frame-header-border-width: 0;
+$panel-frame-header-inner-border-color: null;
+$panel-frame-header-padding: $panel-header-padding;
+
+$panel-wrap-border-color: $panel-border-color;
+$panel-wrap-border-width: 0;
+
+
+

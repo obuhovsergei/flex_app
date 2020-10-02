@@ -1,0 +1,21 @@
+$boundlist-background-color: $flex-toolbar-background-color;
+
+$boundlist-border-color: null;
+$boundlist-border-width: 0;
+
+$boundlist-item-font-family: $flex-font-family;
+$boundlist-item-font-size: $flex-font-size-base;
+$boundlist-item-font-weight: $flex-font-weight;
+
+$boundlist-item-text-color: $flex-text-color-default;
+$boundlist-item-over-text-color: $boundlist-item-text-color;
+$boundlist-item-selected-text-color: $boundlist-item-text-color;
+
+$boundlist-item-border-style: none;
+$boundlist-item-border-width: 1px;
+$boundlist-item-border-color: null;
+$boundlist-item-over-border-color: null;
+$boundlist-item-selected-border-color: $boundlist-background-color;
+
+$boundlist-item-over-background-color: $flex-boundlist-item-selected-background-color;
+$boundlist-item-selected-background-color: $flex-boundlist-item-selected-background-color;

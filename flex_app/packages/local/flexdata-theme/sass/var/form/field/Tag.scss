@@ -1,0 +1,22 @@
+$tag-field-item-height: $flex-font-line-height-base;
+
+$tag-field-item-color: $flex-text-color-default;
+$tag-field-item-selected-color: $flex-text-color-form-empty-field;
+$tag-field-item-background-color: $flex-background-body;
+$tag-field-item-over-background-color: lighten($tag-field-item-background-color, 5%);
+$tag-field-item-selected-background-color: lighten($tag-field-item-background-color, 5%);
+
+
+$tag-field-item-border-radius: 0;
+$tag-field-item-border-width: 0;
+$tag-field-item-border-style: none;
+$tag-field-item-border-color: none;
+$tag-field-item-over-border-color: none;
+$tag-field-item-selected-border-color: none;
+
+$tag-field-item-padding: 0 $flex-column-padding/2;
+
+$tag-field-item-close-icon-glyph-color: $flex-background-header;
+
+$tag-field-item-selected-over-close-icon-glyph-color: lighten($flex-background-header, 5%);
+$tag-field-item-close-icon-glyph: $fa-var-close $flex-font-size-h1 $flex-font-family;

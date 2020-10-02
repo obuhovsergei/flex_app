@@ -1,0 +1,39 @@
+$window-base-color: $flex-text-color-default;
+
+$window-border-radius: 0;
+$window-border-width: 0;
+$window-border-color: null;
+$window-inner-border-color: null;
+$window-inner-border-width: 0;
+
+$window-background-color: $flex-background-panel;
+
+$window-body-border-width: 0;
+$window-body-border-color: $window-base-color;
+
+$window-body-background-color: $flex-background-panel;
+$window-body-color: $window-base-color;
+
+$window-header-font-size: $flex-font-size-h1;
+$window-header-line-height: $flex-font-line-height-h1;
+$window-header-color: $flex-text-color-panel-header;
+$window-header-background-color: $window-background-color;
+$window-header-font-weight: $flex-font-weight-h1;
+
+$window-tool-focus-outline-color: $flex-text-color-panel-header;
+
+$window-header-font-family: $flex-font-family;
+$window-header-text-padding: $flex-column-padding;
+$window-header-text-transform: $flex-font-transform-uppercase;
+$window-header-icon-width: $flex-icon-size-small;
+$window-header-glyph-color: $flex-text-color-panel-header;
+$window-header-border-width: 0;
+$window-header-inner-border-color: null;
+$window-header-inner-border-width: 0;
+
+$window-wrap-border-color: null;
+$window-wrap-border-width: 0;
+
+$window-body-font-size: $flex-font-size-base;
+$window-body-font-weight: $flex-font-weight;
+$window-body-font-family: $flex-font-family;

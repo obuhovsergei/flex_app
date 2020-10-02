@@ -1,0 +1,120 @@
+//Fonts
+$flex-font-family: dynamic(Roboto);
+
+$flex-font-size-base:           dynamic(12px);
+$flex-font-size-h1:             dynamic($flex-font-size-base * 1.25);
+$flex-font-size-h2:             dynamic($flex-font-size-base * 1.2);
+$flex-font-size-h3:             dynamic($flex-font-size-base * 1.15);
+$flex-font-size-h4:             dynamic($flex-font-size-base * 1.1);
+$flex-font-size-h5:             dynamic($flex-font-size-base * 1.05);
+$flex-font-size-p-mini:         dynamic($flex-font-size-base * 0.9);
+
+$flex-font-line-height-base:    dynamic(16px);
+$flex-font-line-height-h1:      dynamic($flex-font-line-height-base * 1.25);
+$flex-font-line-height-h2:      dynamic($flex-font-line-height-base * 1.2);
+$flex-font-line-height-h3:      dynamic($flex-font-line-height-base * 1.15);
+$flex-font-line-height-h4:      dynamic($flex-font-line-height-base * 1.1);
+$flex-font-line-height-h5:      dynamic($flex-font-line-height-base * 1.05);
+$flex-font-line-height-p-mini:  dynamic($flex-font-line-height-base * 0.9);
+
+$flex-font-weight:      dynamic(normal);
+$flex-font-weight-bold: dynamic(bold);
+$flex-font-weight-h1:   dynamic(900);
+
+$flex-font-letter-spacing:      dynamic(0.75px);
+$flex-font-transform-uppercase: dynamic(uppercase);
+$flex-font-transform-capitalize:dynamic(capitalize);
+
+//Radius
+$flex-radius-base:              dynamic(10px);
+$flex-radius-form-empty-field:  dynamic(50px);
+
+//Shadows
+$flex-shadow-header:        dynamic(4px 0px 14px rgba(0, 0, 0, 0.2));
+$flex-shadow-header-module: dynamic(1px 0px 0px 0px rgba(0, 0, 0, 0.15));
+$flex-shadow-module:        dynamic(2px -2px 10px rgba(0, 0, 0, 0.1));
+
+
+//Colors background Base
+$flex-background-body:              dynamic(#E5E5E5);
+$flex-background-header:            dynamic(#6B727A);
+$flex-background-form-empty-field:  dynamic(#979797);
+$flex-background-grid-treeview:     $flex-background-form-empty-field;
+$flex-background-treelist:          dynamic(#F4F4F4);
+$flex-background-panel:             dynamic(#FFFFFF);
+$flex-background-scroll:            $flex-background-header;
+
+//Buttons
+$flex-button-default-background-color:    $flex-background-header;
+$flex-button-toolbar-background-color:    $flex-background-panel;
+$flex-button-grid-cell-background-color:  $flex-background-body;
+$flex-button-group-background-color:      $flex-background-panel;
+
+//Grid
+$flex-grid-header-background-color: darken($flex-background-panel, 5%);
+
+//Colorpicker
+$flex-colorpicker-background-color: $flex-background-body;
+
+//Scroll
+$flex-scroll-indicator-background-color: $flex-background-header;
+
+//Slider
+$flex-slider-background-color: $flex-background-header;
+
+//Toolbar
+$flex-toolbar-background-color: $flex-background-body;
+$flex-tabbar-base-color: $flex-background-panel;
+
+//Boundlist
+$flex-boundlist-background-color: $flex-background-body;
+$flex-boundlist-item-selected-background-color: dynamic(#76b4e3);
+
+//Text Colors
+$flex-text-color-grid-treeview: $flex-background-form-empty-field;
+$flex-text-color-treelist:      dynamic(#6B727A);
+$flex-text-color-default:       dynamic(#000);
+$flex-text-color-panel-header:  dynamic(#2D9CDB);
+$flex-text-color-form-empty-field:  dynamic(#FFF);
+$flex-text-color-header-button:   dynamic(#E5E5E5);
+
+$flex-text-color-ok: dynamic(green);
+$flex-text-color-warning: dynamic(yellow);
+$flex-text-color-danger: dynamic(red);
+$flex-background-chart-default: dynamic(#2D9CDB);
+$flex-color-checkcolumn: dynamic(#6B727A);
+
+
+//Colors Selected
+$flex-background-grid-treeview-selected: $flex-text-color-default;
+
+
+//Indents
+$flex-logo-padding:           dynamic(10px);
+$flex-panel-padding:          ($flex-logo-padding*2) ($flex-logo-padding*3) $flex-logo-padding;
+$flex-column-padding:         $flex-logo-padding;
+$flex-grid-treeview-padding:  $flex-logo-padding*3;
+$flex-treelist-padding:       $flex-logo-padding*2;
+$flex-grid-cell-border-right: dynamic(0.5px solid #BDBDBD);
+
+
+//Other
+$flex-border-default:         dynamic(none);
+$flex-display-hover:          dynamic(none);
+$flex-zero:                   dynamic(0);
+
+$flex-icon-size-small:        dynamic(16px);
+$flex-icon-size-medium:       dynamic(19px);
+$flex-icon-size-large:        dynamic(22px);
+
+
+//base styles for theme
+$color:                 $flex-text-color-default;
+$font-family:           $flex-font-family;
+$font-size:             $flex-font-size-h3;
+$font-weight:           $flex-font-weight;
+$font-weight-bold:      $flex-font-weight-bold;
+$line-height:           $flex-font-line-height-base;
+$base-color:            $flex-background-body;
+$neutral-color:         $flex-text-color-form-empty-field;
+$body-background-color: $flex-background-body;

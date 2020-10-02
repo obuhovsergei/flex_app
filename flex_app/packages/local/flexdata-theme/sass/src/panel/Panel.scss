@@ -1,0 +1,20 @@
+//Fix padding for panels
+.#{$prefix}panel-default{
+  padding-top: $flex-zero!important;
+}
+
+//Scrolls for body
+.#{$prefix}panel-body-default{
+  ::-webkit-scrollbar-track{
+    border-radius: $flex-radius-base;
+    background-color: $flex-background-body;
+  }
+  ::-webkit-scrollbar{
+    width: 4px;
+    background-color: $flex-background-body;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: $flex-radius-base;
+    background-color: $flex-background-header;
+  }
+}

@@ -1,0 +1,13 @@
+$tabbar-base-color: $flex-tabbar-base-color;
+$tabbar-border-color: null;
+$tabbar-border-width: 0;
+$tabbar-strip-border-color: $panel-header-border-color;
+$tabbar-strip-background-color: lighten($flex-background-header, 10%);
+$tabbar-scroller-glyph-color: $flex-text-color-panel-header;
+
+$tabbar-plain-scroller-glyph-color: $tabbar-scroller-glyph-color;
+$tabbar-scroller-glyph-font-size: $flex-icon-size-small;
+$tabbar-scroller-top-glyph: $fa-var-chevron-up $tabbar-scroller-glyph-font-size $flex-font-family;
+$tabbar-scroller-right-glyph: $fa-var-chevron-right $tabbar-scroller-glyph-font-size $flex-font-family;
+$tabbar-scroller-bottom-glyph: $fa-var-chevron-down $tabbar-scroller-glyph-font-size $flex-font-family;
+$tabbar-scroller-left-glyph: $fa-var-chevron-left $tabbar-scroller-glyph-font-size $flex-font-family;

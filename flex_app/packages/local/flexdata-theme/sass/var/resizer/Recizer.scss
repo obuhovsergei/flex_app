@@ -1,0 +1,12 @@
+$resizer-handle-size: none;
+$resizer-handle-border-radius: 0;
+$resizer-handle-background-color: none;
+$resizer-handle-glyph-color: $flex-text-color-default;
+$resizer-handle-glyph-font-size: $flex-icon-size-small;
+
+$resizer-handle-vertical-glyph: $fa-var-ellipsis-v $resizer-handle-glyph-font-size $flex-font-family;
+$resizer-handle-horizontal-glyph: $fa-var-ellipsis-h $resizer-handle-glyph-font-size $flex-font-family;
+$resizer-handle-northwest-glyph: $ext-var-nw-handle $resizer-handle-glyph-font-size ExtJS;
+$resizer-handle-northeast-glyph: $ext-var-ne-handle $resizer-handle-glyph-font-size ExtJS;
+$resizer-handle-southeast-glyph: $ext-var-se-handle $resizer-handle-glyph-font-size ExtJS;
+$resizer-handle-southwest-glyph: $ext-var-sw-handle $resizer-handle-glyph-font-size ExtJS;

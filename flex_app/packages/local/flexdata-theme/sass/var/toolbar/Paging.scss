@@ -1,0 +1,9 @@
+$grid-paging-toolbar-include-disabled-icons: true;
+$grid-paging-toolbar-glyph-color: $flex-background-scroll;
+$grid-paging-toolbar-glyph-font-size: $flex-icon-size-small;
+
+$grid-paging-toolbar-first-glyph: $ext-var-double-chevron-left $grid-paging-toolbar-glyph-font-size ExtJS;
+$grid-paging-toolbar-prev-glyph: $ext-var-chevron-left $grid-paging-toolbar-glyph-font-size ExtJS;
+$grid-paging-toolbar-next-glyph: $ext-var-chevron-right $grid-paging-toolbar-glyph-font-size ExtJS;
+$grid-paging-toolbar-last-glyph: $ext-var-double-chevron-right $grid-paging-toolbar-glyph-font-size ExtJS;
+$grid-paging-toolbar-refresh-glyph: $fa-var-refresh $grid-paging-toolbar-glyph-font-size $flex-font-family;

@@ -1,0 +1,50 @@
+//Menu Buttons (fix user@pam in header)
+.#{$prefix}btn-default-small,
+.#{$prefix}btn-default-medium,
+.#{$prefix}btn-default-large{
+        background-color: $button-default-background-color!important;
+        border: $button-default-border-style;
+        line-height: $button-default-line-height;
+        text-transform: $button-default-text-transform;
+}
+.#{$prefix}btn-inner-default-small,
+.#{$prefix}btn-inner-default-medium,
+.#{$prefix}btn-inner-default-large{
+        border: none;
+        text-transform: $button-default-text-transform;
+}
+.#{$prefix}btn-default-toolbar-small,
+.#{$prefix}btn-default-toolbar-medium,
+.#{$prefix}btn-default-toolbar-large{
+        border-radius: 0;
+        border-width: 0;
+        border-style: none;
+}
+.#{$prefix}btn-wrap-default-small,
+.#{$prefix}btn-wrap-default-medium,
+.#{$prefix}btn-wrap-default-large{
+        .fa-user{
+                margin-top: -5px!important;
+                margin-right: 5px!important;
+        }
+        .fa-user:before{
+                content: "\f2bd" !important;
+                font-size: $flex-font-size-h1!important;
+        }
+}
+
+
+//Disabled Help button
+a[id^="proxmoxHelpButton"]{
+       display: $flex-display-hover;
+}
+
+//Fix buttons Header
+.#{$prefix}plain-body-default .#{$prefix}box-target>a:not(:last-child){
+        span[id*="btnIconEl"]{
+                display: $flex-display-hover;
+        }
+        span[id*="btnInnerEl"]{
+                max-width: calc(100%);
+        }
+}

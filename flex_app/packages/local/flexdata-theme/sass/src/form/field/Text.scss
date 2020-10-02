@@ -1,0 +1,20 @@
+//Search GLOBAL
+.#{$prefix}form-empty-field-default {
+  background-color: $flex-background-form-empty-field;
+  border-radius: $flex-radius-form-empty-field;
+  &::placeholder{color: $flex-text-color-form-empty-field;}
+}
+//Server View
+.#{$prefix}form-text-default{
+  color: $flex-background-form-empty-field;
+}
+//Search border off
+.#{$prefix}form-trigger-wrap-default{
+  border: $flex-border-default!important;
+}
+
+//View input
+#view-inputWrap input{
+  margin-left: $flex-grid-treeview-padding!important;
+  margin-right: $flex-grid-treeview-padding!important;
+}

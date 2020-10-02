@@ -1,0 +1,51 @@
+//Second menu styles
+.#{$prefix}treelist-item-text{
+  padding: $flex-column-padding / 2;
+  font-weight: $flex-font-weight-bold;
+  letter-spacing: $flex-font-letter-spacing;
+  text-transform: $flex-font-transform-capitalize;
+  color: $flex-text-color-treelist!important;
+}
+
+//Fix for icons
+.#{$prefix}treelist-item-icon{
+  padding-right: $flex-column-padding / 2;
+  padding-top: $flex-column-padding / 3;
+}
+
+
+.#{$prefix}treelist-container{
+  font-weight: $flex-font-weight;
+}
+
+//Second menu width of list
+.#{$prefix}treelist-row {
+  padding-left: $flex-treelist-padding;
+  padding-right: $flex-treelist-padding;
+}
+
+//Second menu hover styles
+.#{$prefix}treelist-item-over{
+  .#{$prefix}treelist-row-over{
+    //background-color: $flex-background-treelist;
+  }
+  .#{$prefix}treelist-item-wrap:hover{
+    //background-color: $flex-background-treelist-hover;
+  }
+}
+
+//Second menu extended menu font normal
+.#{$prefix}treelist-root-container li.#{$prefix}treelist-item ul li div.#{$prefix}treelist-item-text{
+  font-weight: $flex-font-weight;
+}
+
+
+.#{$prefix}treelist-root-container{
+  //background-color: red;
+  //z-index: auto;
+}
+
+//Second menu flags
+.#{$prefix}treelist-item-expander::after{
+  color: $flex-text-color-default;
+}

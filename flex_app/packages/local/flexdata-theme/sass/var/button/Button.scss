@@ -1,0 +1,198 @@
+// By default Buttons (whith headers) ----------
+$button-default-border-color : null;
+$button-default-border-color-over : $button-default-border-color;
+$button-default-border-color-focus : $button-default-border-color;
+$button-default-border-color-pressed : $button-default-border-color;
+$button-default-border-color-focus-over : $button-default-border-color;
+$button-default-border-color-focus-pressed : $button-default-border-color;
+$button-default-border-color-disabled : $button-default-border-color;
+
+$button-default-background-color : $flex-button-default-background-color;
+$button-default-background-color-over : lighten($button-default-background-color, 6.25%);
+$button-default-background-color-focus : lighten($button-default-background-color, 6.25%);
+$button-default-background-color-pressed : lighten($button-default-background-color, 6.25%);
+$button-default-background-color-focus-pressed : lighten($button-default-background-color, 6.5%);
+$button-default-background-color-disabled : darken($button-default-background-color, 10%);
+
+$button-default-color : $flex-text-color-header-button;
+$button-default-color-over : lighten($button-default-color, 6.25%);
+$button-default-color-pressed : lighten($button-default-color, 6.25%);
+$button-default-color-focus-pressed : lighten($button-default-color, 6.5%);
+$button-default-color-disabled : darken($button-default-color, 10%);
+
+$button-default-inner-border-width : 0;
+$button-default-inner-border-width-over : $button-default-inner-border-width;
+$button-default-inner-border-width-focus : $button-default-inner-border-width;
+$button-default-inner-border-width-pressed : $button-default-inner-border-width;
+$button-default-inner-border-width-focus-over : $button-default-inner-border-width;
+$button-default-inner-border-width-focus-pressed : $button-default-inner-border-width;
+$button-default-inner-border-width-disabled : $button-default-inner-border-width;
+
+$button-default-inner-border-color : null;
+$button-default-inner-border-color-over : $button-default-inner-border-color;
+$button-default-inner-border-color-focus : $button-default-inner-border-color;
+$button-default-inner-border-color-pressed : $button-default-inner-border-color;
+$button-default-inner-border-color-focus-over : $button-default-inner-border-color;
+$button-default-inner-border-color-focus-pressed : $button-default-inner-border-color;
+$button-default-inner-border-color-disabled : $button-default-inner-border-color;
+
+$button-default-text-transform: $flex-font-transform-uppercase;
+$button-default-line-height: $flex-font-line-height-base;
+$button-default-border-style: none;
+
+// Default Button-small
+$button-small-font-size : $flex-font-size-base;
+$button-small-font-weight : $flex-font-weight;
+$button-small-font-family : $flex-font-family;
+
+//Default Button-medium
+$button-medium-font-size : $flex-font-size-h2;
+$button-medium-font-weight : $flex-font-weight;
+$button-medium-font-family : $flex-font-family;
+
+
+//Default Button-large
+$button-large-font-size : $flex-font-size-h1;
+$button-large-font-weight : $flex-font-weight;
+$button-large-font-family : $flex-font-family;
+
+
+
+// Default Button-toolbar (buttons inside panel headers) ----------
+$button-toolbar-border-color : null;
+$button-toolbar-border-color-over : $button-toolbar-border-color;
+$button-toolbar-border-color-focus : $button-toolbar-border-color;
+$button-toolbar-border-color-pressed : $button-toolbar-border-color;
+$button-toolbar-border-color-focus-over : $button-toolbar-border-color;
+$button-toolbar-border-color-focus-pressed : $button-toolbar-border-color;
+$button-toolbar-border-color-disabled : $button-toolbar-border-color;
+
+$button-toolbar-background-color : $flex-button-toolbar-background-color;
+$button-toolbar-background-color-over : darken($button-toolbar-background-color, 6.25%);
+$button-toolbar-background-color-focus : lighten($button-toolbar-background-color, 6.25%);
+$button-toolbar-background-color-pressed : lighten($button-toolbar-background-color, 6.25%);
+$button-toolbar-background-color-focus-over : lighten($button-toolbar-background-color, 6.25%);
+$button-toolbar-background-color-focus-pressed : lighten($button-toolbar-background-color, 6.5%);
+$button-toolbar-background-color-disabled : lighten($button-toolbar-background-color, 5%);
+
+$button-toolbar-color : $flex-text-color-default;
+$button-toolbar-color-over : darken($button-toolbar-color, 6.25%);
+$button-toolbar-color-focus : lighten($button-toolbar-color, 6.25%);
+$button-toolbar-color-pressed : lighten($button-toolbar-color, 6.25%);
+$button-toolbar-color-focus-over : lighten($button-toolbar-color, 6.25%);
+$button-toolbar-color-focus-pressed : lighten($button-toolbar-color, 6.5%);
+$button-toolbar-color-disabled : lighten($button-toolbar-color, 10%);
+
+$button-toolbar-inner-border-width : 0;
+$button-toolbar-inner-border-width-over : $button-toolbar-inner-border-width;
+$button-toolbar-inner-border-width-focus : $button-toolbar-inner-border-width;
+$button-toolbar-inner-border-width-pressed : $button-toolbar-inner-border-width;
+$button-toolbar-inner-border-width-focus-over : $button-toolbar-inner-border-width;
+$button-toolbar-inner-border-width-focus-pressed : $button-toolbar-inner-border-width;
+$button-toolbar-inner-border-width-disabled : $button-toolbar-inner-border-width;
+
+$button-toolbar-inner-border-color : null;
+$button-toolbar-inner-border-color-over : $button-toolbar-inner-border-color;
+$button-toolbar-inner-border-color-focus : $button-toolbar-inner-border-color;
+$button-toolbar-inner-border-color-pressed : $button-toolbar-inner-border-color;
+$button-toolbar-inner-border-color-focus-over : $button-toolbar-inner-border-color;
+$button-toolbar-inner-border-color-focus-pressed : $button-toolbar-inner-border-color;
+$button-toolbar-inner-border-color-disabled : $button-toolbar-inner-border-color;
+
+// Default Button-toolbar-small
+$button-small-font-size : $flex-font-size-base;
+$button-small-font-weight : $flex-font-weight;
+$button-small-font-family : $flex-font-family;
+
+// Default Button-toolbar-medium
+$button-medium-font-size : $flex-font-size-h2;
+$button-medium-font-weight : $flex-font-weight;
+$button-medium-font-family : $flex-font-family;
+
+// Default Button-toolbar-large
+$button-large-font-size : $flex-font-size-h1;
+$button-large-font-weight : $flex-font-weight;
+$button-large-font-family : $flex-font-family;
+
+
+$button-default-border-width: 0;
+$button-default-border-style: none;
+
+// Grids
+$button-grid-cell-border-radius: 0;
+$button-grid-cell-border-width: 0;
+
+$button-grid-cell-font-size: $flex-icon-size-small;
+$button-grid-cell-font-size-over: $button-grid-cell-font-size;
+$button-grid-cell-font-size-focus: $button-grid-cell-font-size;
+$button-grid-cell-font-size-pressed: $button-grid-cell-font-size;
+$button-grid-cell-font-size-focus-over: $button-grid-cell-font-size-over;
+$button-grid-cell-font-size-focus-pressed: $button-grid-cell-font-size;
+$button-grid-cell-font-size-disabled: $button-grid-cell-font-size;
+
+$button-grid-cell-font-weight: $flex-font-weight;
+$button-grid-cell-font-weight-over: $button-grid-cell-font-weight;
+$button-grid-cell-font-weight-focus: $button-grid-cell-font-weight;
+$button-grid-cell-font-weight-pressed: $button-grid-cell-font-weight;
+$button-grid-cell-font-weight-focus-over: $button-grid-cell-font-weight;
+$button-grid-cell-font-weight-focus-pressed: $button-grid-cell-font-weight;
+$button-grid-cell-font-weight-disabled: $button-grid-cell-font-weight;
+
+$button-grid-cell-font-family: $flex-font-family;
+$button-grid-cell-font-family-over: $button-grid-cell-font-family;
+$button-grid-cell-font-family-focus: $button-grid-cell-font-family;
+$button-grid-cell-font-family-pressed: $button-grid-cell-font-family;
+$button-grid-cell-font-family-focus-over: $button-grid-cell-font-family;
+$button-grid-cell-font-family-focus-pressed: $button-grid-cell-font-family;
+$button-grid-cell-font-family-disabled: $button-grid-cell-font-family;
+
+$button-grid-cell-line-height: $flex-font-line-height-base;
+$button-grid-cell-icon-size: $flex-icon-size-small;
+$button-grid-cell-glyph-font-size: $button-grid-cell-icon-size;
+
+$button-grid-cell-border-color: null;
+$button-grid-cell-border-color-over: $button-grid-cell-border-color;
+$button-grid-cell-border-color-focus: $button-grid-cell-border-color;
+$button-grid-cell-border-color-pressed: $button-grid-cell-border-color;
+$button-grid-cell-border-color-focus-over: $button-grid-cell-border-color;
+$button-grid-cell-border-color-focus-pressed: $button-grid-cell-border-color;
+$button-grid-cell-border-color-disabled: $button-grid-cell-border-color;
+
+$button-grid-cell-background-color: $flex-button-grid-cell-background-color;
+$button-grid-cell-background-color-over: $button-grid-cell-background-color;
+$button-grid-cell-background-color-focus: $button-grid-cell-background-color;
+$button-grid-cell-background-color-pressed: $button-grid-cell-background-color;
+$button-grid-cell-background-color-focus-over: $button-grid-cell-background-color;
+$button-grid-cell-background-color-focus-pressed: $button-grid-cell-background-color;
+$button-grid-cell-background-color-disabled: $button-grid-cell-background-color;
+
+$button-grid-cell-background-gradient: null;
+$button-grid-cell-background-gradient-over: $button-grid-cell-background-gradient;
+$button-grid-cell-background-gradient-focus: $button-grid-cell-background-gradient;
+$button-grid-cell-background-gradient-pressed: $button-grid-cell-background-gradient;
+$button-grid-cell-background-gradient-focus-over: $button-grid-cell-background-gradient;
+$button-grid-cell-background-gradient-focus-pressed: $button-grid-cell-background-gradient;
+$button-grid-cell-background-gradient-disabled: $button-grid-cell-background-gradient;
+
+$button-grid-cell-color: $flex-text-color-default;
+$button-grid-cell-color-over: darken($button-grid-cell-color, 6.25%);
+$button-grid-cell-color-focus: lighten($button-grid-cell-color, 6.25%);
+$button-grid-cell-color-pressed: lighten($button-grid-cell-color, 6.25%);
+$button-grid-cell-color-focus-over: lighten($button-grid-cell-color, 6.25%);
+$button-grid-cell-color-focus-pressed: lighten($button-grid-cell-color, 6.5%);
+$button-grid-cell-color-disabled: darken($button-grid-cell-color, 10%);
+
+$button-grid-cell-inner-border-color: null;
+$button-grid-cell-inner-border-color-over: $button-grid-cell-inner-border-color;
+$button-grid-cell-inner-border-color-focus: $button-grid-cell-inner-border-color;
+$button-grid-cell-inner-border-color-pressed: $button-grid-cell-inner-border-color;
+$button-grid-cell-inner-border-color-focus-over: $button-grid-cell-inner-border-color;
+$button-grid-cell-inner-border-color-focus-pressed: $button-grid-cell-inner-border-color;
+$button-grid-cell-inner-border-color-disabled: $button-grid-cell-inner-border-color;
+
+$button-grid-cell-body-outline-width-focus: 0;
+$button-grid-cell-body-outline-style-focus: none;
+$button-grid-cell-body-outline-color-focus: color;
+
+$button-grid-cell-glyph-color: $button-grid-cell-color;
+$button-grid-cell-arrow-glyph-color: $button-grid-cell-color;

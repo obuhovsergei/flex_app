@@ -1,0 +1,31 @@
+.#{$prefix}tree-elbow-img {
+  margin-right: $flex-column-padding;
+}
+.#{$prefix}treelist-root-container{
+  padding-top: $flex-column-padding;
+  padding-bottom: $flex-column-padding;
+}
+//Grid view padding
+.#{$prefix}grid-cell-inner-treecolumn {
+  padding-left: $flex-grid-treeview-padding!important;
+  padding-right: $flex-grid-treeview-padding!important;
+}
+
+//First menu (NO CHANGE!)
+.#{$prefix}tree-node-text {
+  text-transform: $flex-font-transform-uppercase;
+  font-weight: $flex-font-weight;
+  font-size: $flex-font-size-h1;
+  line-height: $flex-font-line-height-h1;
+  letter-spacing: $flex-font-letter-spacing;
+}
+
+//Tables add borders (Logs, Nodes)
+.#{$prefix}grid-item{
+  .#{$prefix}grid-cell-inner{
+    border-right: $flex-grid-cell-border-right;
+  }
+  tr td:last-child div.#{$prefix}grid-cell-inner{
+    border-right: $flex-border-default;
+  }
+}

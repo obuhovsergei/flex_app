@@ -1,0 +1,155 @@
+$tab-base-color: $flex-background-body;
+$tab-base-color-focus: lighten($tab-base-color, 5%);
+$tab-base-color-over: darken($tab-base-color, 5%);
+$tab-base-color-active: lighten($tab-base-color, 10%);
+$tab-base-color-focus-over: lighten($tab-base-color, 5%);
+$tab-base-color-focus-active: lighten($tab-base-color, 7%);
+$tab-base-color-disabled: darken($tab-base-color, 10%);
+
+$tab-plain-background-color: none;
+$tab-plain-background-color-focus: $tab-plain-background-color;
+$tab-plain-background-color-over: $tab-plain-background-color;
+$tab-plain-background-color-active: $tab-plain-background-color;
+$tab-plain-background-color-focus-over: $tab-plain-background-color;
+$tab-plain-background-color-focus-active: $tab-plain-background-color;
+$tab-plain-background-color-disabled: $tab-plain-background-color;
+
+$tab-color: $flex-text-color-treelist;
+$tab-color-focus: lighten($tab-color, 5%);
+$tab-color-over: $flex-text-color-panel-header;
+$tab-color-active: $flex-text-color-panel-header;
+$tab-color-focus-over: lighten($tab-color, 5%);
+$tab-color-focus-active: lighten($tab-color, 5%);
+$tab-color-disabled: darken($tab-color, 10%);
+
+//$flex-text-color-panel-header
+$tab-plain-color: null;
+$tab-plain-color-focus: $tab-plain-color;
+$tab-plain-color-over: $tab-plain-color;
+$tab-plain-color-active: $tab-plain-color;
+$tab-plain-color-focus-over: $tab-plain-color;
+$tab-plain-color-focus-active: $tab-plain-color;
+$tab-plain-color-disabled: $tab-plain-color;
+
+$tab-font-size: $flex-font-size-base;
+$tab-font-size-focus: $tab-font-size;
+$tab-font-size-over: $tab-font-size;
+$tab-font-size-active: $tab-font-size;
+$tab-font-size-focus-over: $tab-font-size;
+$tab-font-size-focus-active: $tab-font-size;
+$tab-font-size-disabled: $tab-font-size;
+
+$tab-font-family: $flex-font-family;
+$tab-font-family-focus: $tab-font-family;
+$tab-font-family-over: $tab-font-family;
+$tab-font-family-active: $tab-font-family;
+$tab-font-family-focus-over: $tab-font-family;
+$tab-font-family-focus-active: $tab-font-family;
+$tab-font-family-disabled: $tab-font-family;
+
+$tab-font-weight:$flex-font-weight-bold;
+$tab-font-weight-focus: $tab-font-weight;
+$tab-font-weight-over: $tab-font-weight;
+$tab-font-weight-active: $tab-font-weight;
+$tab-font-weight-focus-over: $tab-font-weight;
+$tab-font-weight-focus-active: $tab-font-weight;
+$tab-font-weight-disabled: $tab-font-weight;
+
+$tab-border-radius: 0;
+$tab-border-width: 0;
+$tab-border-width-focus: $tab-border-width;
+$tab-border-width-over: $tab-border-width;
+$tab-border-width-active: $tab-border-width;
+$tab-border-width-focus-over: $tab-border-width;
+$tab-border-width-focus-active: $tab-border-width;
+$tab-border-width-disabled: $tab-border-width;
+
+$tab-inner-border-width: none;
+$tab-inner-border-width-focus: $tab-inner-border-width;
+$tab-inner-border-width-over: $tab-inner-border-width;
+$tab-inner-border-width-active: $tab-inner-border-width;
+$tab-inner-border-width-focus-over: $tab-inner-border-width;
+$tab-inner-border-width-focus-active: $tab-inner-border-width;
+$tab-inner-border-width-disabled: $tab-inner-border-width;
+
+$tab-inner-border-color: none;
+$tab-inner-border-color-focus: $tab-inner-border-color;
+$tab-inner-border-color-over: $tab-inner-border-color;
+$tab-inner-border-color-active: $tab-inner-border-color;
+$tab-inner-border-color-focus-over: $tab-inner-border-color;
+$tab-inner-border-color-focus-active: $tab-inner-border-color;
+$tab-inner-border-color-disabled: $tab-inner-border-color;
+
+$tab-outline-width-focus: 0;
+$tab-outline-style-focus: none;
+$tab-outline-color-focus: $tab-color;
+
+$tab-body-outline-width-focus: 0;
+$tab-body-outline-style-focus: none;
+$tab-body-outline-color-focus: $tab-color;
+
+$tab-border-color: null;
+$tab-border-color-focus: $tab-border-color;
+$tab-border-color-over: $tab-border-color;
+$tab-border-color-active: $tab-border-color;
+$tab-border-color-focus-over: $tab-border-color;
+$tab-border-color-focus-active: $tab-border-color;
+$tab-border-color-disabled: $tab-border-color;
+
+$tab-plain-border-color: null;
+$tab-plain-border-color-focus: $tab-plain-border-color;
+$tab-plain-border-color-over: $tab-plain-border-color;
+$tab-plain-border-color-active: $tab-plain-border-color;
+$tab-plain-border-color-focus-over: $tab-plain-border-color;
+$tab-plain-border-color-focus-active: $tab-plain-border-color;
+$tab-plain-border-color-disabled: $tab-plain-border-color;
+
+$tab-padding: 3px 9px;
+$tab-text-padding: 0;
+$tab-margin: 0 0 0 2px;
+
+$tab-closable-icon-glyph-color: $flex-text-color-default;
+$tab-closable-icon-glyph-color-focus: lighten($tab-closable-icon-glyph-color, 5%);
+$tab-closable-icon-glyph-color-over: lighten($tab-closable-icon-glyph-color, 5%);
+$tab-closable-icon-glyph-color-active: lighten($tab-closable-icon-glyph-color, 5%);
+$tab-closable-icon-glyph-color-focus-over: lighten($tab-closable-icon-glyph-color, 10%);
+$tab-closable-icon-glyph-color-focus-active: lighten($tab-closable-icon-glyph-color, 10%);
+$tab-closable-icon-glyph-color-disabled: darken($tab-closable-icon-glyph-color, 10%);
+
+$tab-plain-closable-icon-glyph-color: $flex-text-color-default;
+$tab-plain-closable-icon-glyph-color-focus: lighten($tab-plain-closable-icon-glyph-color, 5%);
+$tab-plain-closable-icon-glyph-color-over: lighten($tab-plain-closable-icon-glyph-color, 5%);
+$tab-plain-closable-icon-glyph-color-active: lighten($tab-plain-closable-icon-glyph-color, 5%);
+$tab-plain-closable-icon-glyph-color-focus-over: lighten($tab-plain-closable-icon-glyph-color, 10%);
+$tab-plain-closable-icon-glyph-color-focus-active: lighten($tab-plain-closable-icon-glyph-color, 10%);
+$tab-plain-closable-icon-glyph-color-disabled: darken($tab-plain-closable-icon-glyph-color, 10%);
+
+$tab-closable-icon-glyph: $fa-var-close $flex-icon-size-small $flex-font-family;
+
+$tab-line-height: $flex-font-line-height-base;
+$tab-icon-background-position: center center;
+
+$tab-glyph-color: $tab-color;
+$tab-glyph-color-focus: lighten($tab-glyph-color, 5%);
+$tab-glyph-color-over: lighten($tab-glyph-color, 5%);
+$tab-glyph-color-active: lighten($tab-glyph-color, 5%);
+$tab-glyph-color-focus-over: lighten($tab-glyph-color, 5%);
+$tab-glyph-color-focus-active: lighten($tab-glyph-color, 10%);
+$tab-glyph-color-disabled: darken($tab-glyph-color, 10%);
+
+$tab-plain-glyph-color: $flex-text-color-default;
+$tab-plain-glyph-color-focus: lighten($tab-plain-glyph-color, 5%);
+$tab-plain-glyph-color-over: lighten($tab-plain-glyph-color, 5%);
+$tab-plain-glyph-color-active: lighten($tab-plain-glyph-color, 5%);
+$tab-plain-glyph-color-focus-over: lighten($tab-plain-glyph-color, 10%);
+$tab-plain-glyph-color-focus-active: lighten($tab-plain-glyph-color, 10%);
+$tab-plain-glyph-color-disabled: lighten($tab-plain-glyph-color, 10%);
+
+
+$tab-background-opacity: null;
+$tab-background-opacity-focus: $tab-background-opacity;
+$tab-background-opacity-over: $tab-background-opacity;
+$tab-background-opacity-active: $tab-background-opacity;
+$tab-background-opacity-focus-over: $tab-background-opacity;
+$tab-background-opacity-focus-active: $tab-background-opacity;
+$tab-background-opacity-disabled: $tab-background-opacity;

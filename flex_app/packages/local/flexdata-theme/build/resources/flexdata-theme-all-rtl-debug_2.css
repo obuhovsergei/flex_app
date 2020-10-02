@@ -1,0 +1,81 @@
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/form/field/Text.scss:5 */
+.x-form-empty-field-default::placeholder {
+    color: #fff;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/form/field/Text.scss:8 */
+.x-form-text-default {
+    color: #979797;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/form/field/Text.scss:12 */
+.x-form-trigger-wrap-default {
+    border: none!important;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/form/field/Text.scss:17 */
+#view-inputWrap input {
+    margin-left: 30px!important;
+    margin-right: 30px!important;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/view/Table.scss:3 */
+.x-grid-with-row-lines::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #e5e5e5;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/view/Table.scss:7 */
+.x-grid-with-row-lines::-webkit-scrollbar {
+    width: 4px;
+    background-color: #e5e5e5;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/view/Table.scss:11 */
+.x-grid-with-row-lines::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #6b727a;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/view/Table.scss:18 */
+.x-grid-item-container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/selection/CheckboxModel.scss:2 */
+.x-column-header-text-inner {
+    letter-spacing: 0.75px;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tab/Bar.scss:1 */
+.x-box-scroller-body-horizontal {
+    position: absolute;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/toolbar/Breadcrumb.scss:3 */
+.x-plain-body-default div.x-autocontainer-innerCt {
+    padding-left: 30px;
+    padding-bottom: 10px!important;
+    padding-top: 10px!important;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tree/View.scss:1 */
+.x-tree-elbow-img {
+    margin-right: 10px;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tree/View.scss:4 */
+.x-treelist-root-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tree/View.scss:9 */
+.x-grid-cell-inner-treecolumn {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tree/View.scss:15 */
+.x-tree-node-text {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tree/View.scss:25 */
+.x-grid-item .x-grid-cell-inner {
+    border-right: 0.5px solid #bdbdbd;
+}
+/* C:/Users/Sergey/WebstormProjects/flex_app/flex_app/packages/local/flexdata-theme/sass/src/tree/View.scss:28 */
+.x-grid-item tr td:last-child div.x-grid-cell-inner {
+    border-right: none;
+}

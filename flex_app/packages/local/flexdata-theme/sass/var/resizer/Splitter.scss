@@ -1,0 +1,18 @@
+$splitter-size: 5px;
+
+$splitter-active-background-color: $flex-background-body;
+$splitter-focus-outline-color: $flex-text-color-default;
+$splitter-focus-outline-width: 0;
+$splitter-focus-outline-offset: none;
+$collapse-tool-size: $flex-font-size-h1;
+
+$splitter-collapse-tool-border-color: none;
+$splitter-collapse-tool-background-color: transparent;
+$splitter-collapse-tool-border-width: 0;
+$splitter-collapse-tool-glyph-color: none;
+$splitter-collapse-tool-glyph-font-size: $flex-icon-size-small;
+
+$splitter-collapse-tool-top-glyph: $fa-var-caret-up $splitter-collapse-tool-glyph-font-size $flex-font-family;
+$splitter-collapse-tool-right-glyph: $fa-var-caret-right $splitter-collapse-tool-glyph-font-size $flex-font-family;
+$splitter-collapse-tool-bottom-glyph: $fa-var-caret-down $splitter-collapse-tool-glyph-font-size $flex-font-family;
+$splitter-collapse-tool-left-glyph: $fa-var-caret-left $splitter-collapse-tool-glyph-font-size $flex-font-family;

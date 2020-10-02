@@ -1,0 +1,20 @@
+//Fieldset for (user - setting) my settings and etc
+$fieldset-header-font-size: $flex-font-size-h3;
+$fieldset-header-font-weight: $flex-font-weight;
+$fieldset-header-font-family: $flex-font-family;
+$fieldset-header-line-height: $flex-font-line-height-base;
+$fieldset-header-color: $flex-text-color-default;
+
+$fieldset-border-width: 0;
+$fieldset-border-style: none;
+$fieldset-border-color: null;
+$fieldset-border-radius: 0;
+
+$fieldset-padding: 0 $flex-column-padding;
+$fieldset-margin: 0 0 $flex-column-padding;
+
+$fieldset-collapse-tool-size: $flex-icon-size-small;
+
+$fieldset-tool-glyph-font-size: $flex-icon-size-medium;
+$fieldset-tool-glyph-color: $flex-background-header;
+$fieldset-checkbox-margin: $fieldset-collapse-tool-margin;

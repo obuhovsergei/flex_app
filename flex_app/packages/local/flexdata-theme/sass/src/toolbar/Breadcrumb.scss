@@ -1,0 +1,8 @@
+//Header padding for LOGO
+.#{$prefix}plain-body-default{
+  div.#{$prefix}autocontainer-innerCt{
+    padding-left: $flex-grid-treeview-padding;
+    padding-bottom: $flex-logo-padding!important;
+    padding-top: $flex-logo-padding!important;
+  }
+}

@@ -1,0 +1,21 @@
+//Scrolls for Logs
+.#{$prefix}grid-with-row-lines{
+  &::-webkit-scrollbar-track{
+    border-radius: $flex-radius-base;
+    background-color: $flex-background-body;
+  }
+  &::-webkit-scrollbar{
+    width: 4px;
+    background-color: $flex-background-body;
+  }
+  &::-webkit-scrollbar-thumb{
+    border-radius: $flex-radius-base;
+    background-color: $flex-background-header;
+  }
+}
+
+//First menu all container
+.#{$prefix}grid-item-container {
+  padding-bottom: $flex-column-padding;
+  padding-top: $flex-column-padding;
+}

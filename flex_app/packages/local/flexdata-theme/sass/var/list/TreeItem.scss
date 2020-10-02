@@ -1,0 +1,17 @@
+$treelist-background-color: $flex-background-treelist;
+$treelist-color: $flex-text-color-treelist;
+$treelist-left-padding: $flex-treelist-padding / 2;
+$treelist-right-padding: $flex-treelist-padding / 2;
+$treelist-padding: 0 $treelist-right-padding 0 $treelist-left-padding;
+
+$treelist-item-text-color: $treelist-color;
+$treelist-item-line-height: $flex-font-line-height-h1;
+$treelist-item-text-over-color: darken($treelist-color, 10%);
+$treelist-item-text-font-size: $flex-font-size-h1;
+
+$treelist-item-expander-color: $treelist-color;
+$treelist-item-icon-color: $treelist-color;
+$treelist-item-icon-font-size: $flex-font-size-h1;
+$treelist-row-selected-background-color: darken($flex-background-treelist, 8%);
+$treelist-row-selected-over-background-color: darken($flex-background-treelist, 10%);
+$treelist-row-over-background-color: darken($flex-background-treelist, 5%);

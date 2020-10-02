@@ -1,0 +1,53 @@
+@font-face {
+  font-family: $flex-font-family;
+  src: url(/pve2/css/Roboto.ttf);
+}
+html,
+body {
+  >.#{$prefix}plain-default{
+    left: $flex-zero!important;
+  }
+}
+
+// Styles for body SUMMARY
+.#{$prefix}container-default{
+  .#{$prefix}border-item{
+    .#{$prefix}plain-body-default{
+      .#{$prefix}box-inner{
+        background-color: $flex-background-header;
+      }
+    }
+  }
+}
+
+//Fix for line in Summary's
+div[id^="pveNode"],
+div[id^="pveGuest"],
+div[id^="pveDc"],
+div[id^="pveCluster"],
+div[id^="pveStorage"]{
+  >div.#{$prefix}autocontainer-innerCt{
+    padding-top: 0!important;
+    background-color: $flex-background-body;
+  }
+}
+
+//Disabled version
+.versioninfo{
+  display: $flex-display-hover;
+}
+
+//Fix for logo
+.logo{
+  margin-top: 4px!important;
+  margin-right: 5px!important;
+}
+
+//Fix for Nodes left and right
+div.left-aligned {
+  width: 50%!important;
+  font-size: $flex-font-size-base;
+}
+div.right-aligned {
+  float: none!important;
+}

@@ -1,0 +1,25 @@
+$slider-track-size: $flex-font-size-p-mini;
+
+$slider-track-border-radius: 0;
+$slider-track-border-width: 0;
+$slider-track-border-color: null;
+
+$slider-track-background-color: $flex-slider-background-color;
+
+$slider-thumb-border-radius: 0;
+$slider-thumb-border-width: 0;
+$slider-thumb-border-color: null;
+$slider-thumb-border-color-over: null;
+$slider-thumb-border-color-focus: null;
+$slider-thumb-border-color-drag: null;
+
+$slider-thumb-background-color: $slider-track-background-color;
+$slider-thumb-background-color-over: darken($slider-thumb-background-color, 5%);
+$slider-thumb-background-color-focus: darken($slider-thumb-background-color, 5%);
+$slider-thumb-background-color-drag: darken($slider-thumb-background-color, 5%);
+
+$slider-thumb-glyph-color: $slider-track-background-color;
+$slider-thumb-glyph-color-over: darken($slider-thumb-glyph-color, 5%);
+$slider-thumb-glyph-color-focus: darken($slider-thumb-glyph-color, 5%);
+$slider-thumb-glyph-color-drag: darken($slider-thumb-glyph-color, 5%);
+$slider-thumb-glyph-font-size: $slider-track-size;

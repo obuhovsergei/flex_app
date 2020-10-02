@@ -1,0 +1,24 @@
+$loadmask-background-color: $flex-background-panel;
+$loadmask-page-background-color: $loadmask-background-color;
+
+$loadmask-border-color-focus: null;
+$loadmask-border-width-focus: 0;
+
+$loadmask-msg-padding: 2px;
+$loadmask-msg-border-color: null;
+$loadmask-msg-border-width: 0;
+$loadmask-msg-background-color: $flex-background-panel;
+$loadmask-msg-background-gradient: none;
+
+$loadmask-msg-inner-padding: 0 5px;
+$loadmask-msg-inner-icon-position: 0 center;
+$loadmask-msg-inner-border-color: null;
+$loadmask-msg-inner-border-width: 0;
+$loadmask-msg-inner-background-color: $flex-background-panel;
+$loadmask-msg-inner-color: $flex-text-color-default;
+$loadmask-msg-inner-font-size:$flex-font-size-base;
+$loadmask-msg-inner-font-weight: $flex-font-weight;
+$loadmask-msg-inner-font-family: $flex-font-family;
+$loadmask-msg-inner-font: $loadmask-msg-inner-font-weight $loadmask-msg-inner-font-size $loadmask-msg-inner-font-family;
+$loadmask-msg-text-padding: 5px 5px 5px 20px;
+$loadmask-msg-border-radius: 0;

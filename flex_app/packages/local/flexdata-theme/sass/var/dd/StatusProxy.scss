@@ -1,0 +1,23 @@
+//Status proxy styles
+$statusproxy-padding: $flex-logo-padding/2;
+$statusproxy-color: $flex-text-color-header-button;
+
+$statusproxy-border-color: null;
+$statusproxy-border-width: 0;
+$statusproxy-border-style: none;
+
+$statusproxy-background-color: $flex-background-body;
+$statusproxy-font-weight: $flex-font-weight;
+$statusproxy-font-size: $flex-font-size-base;
+$statusproxy-line-height: $flex-font-line-height-base;
+$statusproxy-font-family: $flex-font-family;
+$statusproxy-icon-size: $flex-icon-size-small;
+
+$statusproxy-glyph-font-size: $flex-icon-size-small;
+$statusproxy-ok-glyph: $fa-var-check-circle $statusproxy-glyph-font-size $statusproxy-font-family;
+$statusproxy-ok-glyph-color: $flex-text-color-danger;
+$statusproxy-add-glyph: $statusproxy-ok-glyph;
+$statusproxy-add-glyph-color: $statusproxy-ok-glyph-color;
+$statusproxy-nodrop-glyph: $fa-var-times-circle $statusproxy-glyph-font-size $statusproxy-font-family;
+$statusproxy-nodrop-glyph-color: $flex-text-color-ok;
+
