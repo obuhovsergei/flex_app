@@ -1,5 +1,5 @@
 /build
-packages\local\flexdata-theme\build/
+/packages\local\flexdata-theme\build
 bootstrap.*
 classic.json*
 modern.json*
